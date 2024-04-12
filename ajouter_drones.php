@@ -4,10 +4,10 @@ ini_set('display_startup_errors', 1);
 error_reporting(E_ALL);
 
 // Connexion à la base de données
-$host = "localhost";
+$host = "10.170.10.168";
 $user = "root";
 $password = "root";
-$dbname = "API";
+$dbname = "GameOfDrones";
 
 $connexion = mysqli_connect($host, $user, $password, $dbname);
 
